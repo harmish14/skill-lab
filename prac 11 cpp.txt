@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+class ship
+{
+public:
+    ship()
+    {
+        cout<<"\n\t i love titanic.";
+    }
+};
+class ship: seaways
+{
+
+};
+
+
+int main()
+{
+    ship obj;
+    cout<<"\n";
+    return 0;
+}
